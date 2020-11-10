@@ -13,11 +13,7 @@ namespace WindowsFormsApp1
 
 		private int myVar;
 
-		public int MyProperty
-		{
-			get { return myVar; }
-			set { myVar = value; }
-		}
+
 
 
 		public string FirstName { get; set; }
@@ -27,6 +23,7 @@ namespace WindowsFormsApp1
 		List<Employees> listofEmployees = new List<Employees>();
 
 		public DateTime birthday { get; set; }
+		public int newint;
 
 		public bool saveEmp(Employees emp)
 		{

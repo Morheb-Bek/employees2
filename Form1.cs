@@ -17,7 +17,7 @@ namespace WindowsFormsApp1
 	{
 		List<Employees> listofEmployees = new List<Employees>();
 		string selected = "start";
-
+		public int nefrrrrrrrrrrrrrrrrrrrrrrrrrrrrrwint;
 		public Form1()
 		{
 
